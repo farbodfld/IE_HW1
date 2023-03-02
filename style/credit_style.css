@@ -1,0 +1,191 @@
+body {
+  position: relative;
+  width: 1326px;
+  height: 3099px;
+  background-color: #F0F0F6;
+}
+
+.main_menu {
+  position: absolute;
+  width: 970px;
+  height: 532px;
+  left: 335px;
+  top: 0px;
+  background: #FFFFFF;
+}
+.main_menu .menu_title {
+  position: absolute;
+  width: 500px;
+  height: 134.4px;
+  left: 60px;
+  top: 105.92px;
+  margin: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 123.6%;
+  color: #2B2B2B;
+}
+.main_menu .menu_title .colorful_text {
+  color: #FFB400;
+}
+.main_menu .menu_text {
+  position: absolute;
+  width: 424px;
+  height: 100.23px;
+  left: 60px;
+  top: 260.82px;
+  margin: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+  color: #767676;
+}
+.main_menu .ellipse_15 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 40px;
+  top: 34.17px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+.main_menu .ellipse_12 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 520px;
+  top: 59.23px;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+.main_menu .ellipse_16 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 88px;
+  top: 480.64px;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+.main_menu .ellipse_13 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 557.86px;
+  top: 432.77px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+.main_menu .rectangle_51 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16.45px;
+  height: 17.82px;
+  left: 895.44px;
+  top: 79.34px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+.main_menu .rectangle_52 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16.45px;
+  height: 17.82px;
+  left: 373.8px;
+  top: 379.28px;
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+.main_menu .polygon_1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 921px;
+  top: 486.34px;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 10px solid red;
+}
+.main_menu .your_image {
+  position: absolute;
+  width: 325.72px;
+  height: 522.89px;
+  left: 586.68px;
+  top: 9.11px;
+  background: url(Images/Your_Image_1.png);
+}
+.main_menu .button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 154px;
+  height: 58.09px;
+  left: 60px;
+  top: 389.53px;
+}
+.main_menu .button .hire_me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+  width: 154px;
+  height: 51px;
+  /* Yellow */
+  background: #FFB400;
+  border-radius: 5px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.main_menu .button .hire_me .group_74 {
+  width: 90px;
+  height: 19px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.main_menu .button .hire_me .group_74 .frame {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 125px;
+  top: 32px;
+}
+.main_menu .button .hire_me .group_74 .frame .vector_image {
+  width: 20px;
+  height: 20px;
+}
+.main_menu .button .hire_me .group_74 .hire_me_text {
+  position: absolute;
+  width: 75px;
+  height: 19px;
+  left: calc(50% - 32.5px - 12.5px);
+  top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Black */
+  color: #2B2B2B;
+}
