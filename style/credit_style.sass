@@ -1,28 +1,119 @@
 @import "Variables"
 
-body
+.ellipse_15
   position: relative
-  width: 1326px
-  height: 3099px
+  box-sizing: border-box
+  display: block
+  width: 16px
+  height: 18.22px
+  left: 40px
+  top: 34.17px
+  border: 2px solid rgba(255, 180, 0, 0.8)
+  border-radius: 50%
+  z-index: 5
+
+.ellipse_12
+  position: relative
+  box-sizing: border-box
+  display: block
+  width: 16px
+  height: 18.22px
+  left: 520px
+  top: 59.23px
+  border: 2px solid rgba(5, 255, 0, 0.8)
+  border-radius: 50%
+  z-index: 5
+
+.ellipse_16
+  position: relative
+  box-sizing: border-box
+  display: block
+  width: 16px
+  height: 18.22px
+  left: 88px
+  top: 451.64px
+  border: 2px solid rgba(5, 255, 0, 0.8)
+  border-radius: 50%
+  z-index: 5
+
+.ellipse_13
+  position: relative
+  box-sizing: border-box  
+  display: block
+  width: 16px
+  height: 18.22px
+  left: 557.86px
+  top: 432.77px
+  border: 2px solid rgba(255, 180, 0, 0.8)
+  border-radius: 50%
+  z-index: 5
+
+.rectangle_51
+    position: relative
+    display: block
+    box-sizing: border-box
+    width: 16.45px
+    height: 17.82px
+    right: -855.44px
+    top: 79.34px
+    border: 2px solid rgba(255, 180, 0, 0.8)
+    transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0)
+    z-index: 5
+
+.rectangle_52
+    position: relative
+    display: block
+    box-sizing: border-box
+    width: 16.45px
+    height: 17.82px
+    left: 373.8px
+    top: 379.28px
+    border: 2px solid rgba(0, 71, 255, 0.8)
+    transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0)
+    z-index: 5
+
+.polygon_1
+  display: block
+  position: relative
+  box-sizing: border-box
+  width: 16px
+  height: 18.22px
+  left: 857px
+  top: 400.34px
+  border-left: 9px solid transparent
+  border-right: 9px solid transparent
+  border-bottom: 10px solid red
+  z-index: 5
+
+body
   background-color: $LightGray1
 
+.main
+   margin: 0 auto
+   max-width: 970px
+   
+
 .main_menu
-  position: absolute
-  width: 970px
-  height: 532px
-  left: 335px
-  top: 0px
+  margin: 0 auto
+  max-width: 970px
   background: $White
+  border: 1px black solid
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-evenly
+  position: absolute
+  top: 0
+  margin-top: 20px
+
+  .main_menu_col-1
+    display: flex
+    flex-direction: column
+    margin-left: 60px
+    margin-top: 105.95px
 
   .menu_title
-    position: absolute
-    width: 500px
-    height: 134.4px
-    left: 60px
-    top: 105.92px
-
     margin: 0px
-
+    max-width: 500px
     font-family: 'Inter'
     font-style: normal
     font-weight: 700
@@ -35,118 +126,26 @@ body
       color: $Orange1
 
   .menu_text
-    position: absolute
     width: 424px
     height: 100.23px
     left: 60px
     top: 260.82px
-
     margin: 0px
-
     font-family: 'Inter'
     font-style: normal
     font-weight: 400
     font-size: 16px
     line-height: 24px
-
     text-transform: capitalize
     font-feature-settings: 'calt' off, 'kern' off
-
     color: $Gray
 
-  .ellipse_15
-    box-sizing: border-box
-
-    position: absolute
-    width: 16px
-    height: 18.22px
-    left: 40px
-    top: 34.17px
-
-    border: 2px solid rgba(255, 180, 0, 0.8)
-    border-radius: 50%
-
-  .ellipse_12
-    box-sizing: border-box
-
-    position: absolute
-    width: 16px
-    height: 18.22px
-    left: 520px
-    top: 59.23px
-
-    border: 2px solid rgba(5, 255, 0, 0.8)
-    border-radius: 50%
-
-  .ellipse_16
-    box-sizing: border-box
-
-    position: absolute
-    width: 16px
-    height: 18.22px
-    left: 88px
-    top: 480.64px
-
-    border: 2px solid rgba(5, 255, 0, 0.8)
-    border-radius: 50%
-
-  .ellipse_13
-    box-sizing: border-box
-
-    position: absolute
-    width: 16px
-    height: 18.22px
-    left: 557.86px
-    top: 432.77px
-
-    border: 2px solid rgba(255, 180, 0, 0.8)
-    border-radius: 50%
-
-  .rectangle_51
-    box-sizing: border-box
-
-    position: absolute
-    width: 16.45px
-    height: 17.82px
-    left: 895.44px
-    top: 79.34px
-
-    border: 2px solid rgba(255, 180, 0, 0.8)
-    transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0)
-
-  .rectangle_52
-    box-sizing: border-box
-
-    position: absolute
-    width: 16.45px
-    height: 17.82px
-    left: 373.8px
-    top: 379.28px
-
-    border: 2px solid rgba(0, 71, 255, 0.8)
-    transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0)
-
-  .polygon_1
-    box-sizing: border-box
-
-    position: absolute
-    width: 16px
-    height: 18.22px
-    left: 921px
-    top: 486.34px
-
-    border-left: 9px solid transparent
-    border-right: 9px solid transparent
-    border-bottom: 10px solid red
-
   .your_image
-    position: absolute
     width: 325.72px
-    height: 522.89px
+    height: auto
     left: 586.68px
     top: 9.11px
-
-    background: url(Images/Your_Image_1.png)
+    
 
   // .button
   //   display: flex
@@ -154,7 +153,7 @@ body
   //   align-items: flex-start
   //   padding: 0px
 
-  //   position: absolute
+  //     
   //   width: 154px
   //   height: 58.09px
   //   left: 60px
@@ -162,74 +161,26 @@ body
 
   //   // .button_image
   //   //   background: url(Icons_and_Images/Hire_me.png)
+  .hire_me
+     background: #FFB400
 
   .button
+    padding:  16px 32px
+    gap: 10px
+    width: fit-content
+    color: black
+    text-decoration: none
     display: flex
-    flex-direction: column
-    align-items: flex-start
-    padding: 0px
+    align-items: baseline
+    background: #FFB400
+    border-radius: 5px
+    
 
-    position: absolute
-    width: 154px
-    height: 58.09px
-    left: 60px
-    top: 389.53px
 
-    .hire_me
-      display: flex
-      flex-direction: column
-      justify-content: center
-      align-items: center
-      padding: 16px 32px
-      gap: 10px
-
-      width: 154px
-      height: 51px
-
-      /* Yellow */
-      background: #FFB400
-      border-radius: 5px
-
-      /* Inside auto layout */
-      flex: none
-      order: 0
-      flex-grow: 0
-
-      .group_74
-        width: 90px
-        height: 19px
-
-        /* Inside auto layout */
-        flex: none
-        order: 0
-        flex-grow: 0
-
-        .frame
-          position: absolute
-          width: 20px
-          height: 20px
-          left: 125px
-          top: 32px
-
-          .vector_image
-            width: 20px
-            height: 20px
-
-        .hire_me_text
-          position: absolute
-          width: 75px
-          height: 19px
-          left: calc(50% - 65px/2 - 12.5px)
-          top: 16px
-
-          font-family: 'Inter'
-          font-style: normal
-          font-weight: 500
-          font-size: 18px
-          line-height: 19px
-          display: flex
-          align-items: center
-          text-align: center
-
-          /* Black */
-          color: #2B2B2B
+    .hire_me_text
+      font-family: 'Inter'
+      font-style: normal
+      font-weight: 500
+      font-size: 18px
+      line-height: 19px
+      color: #2B2B2B
