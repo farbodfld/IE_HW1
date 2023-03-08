@@ -98,7 +98,7 @@ body
   max-width: 970px
   margin: 0 15px
   margin-top: 20px
-  background-color: #FFFFFF
+  background-color: $White
   display: flex
   justify-content: space-evenly
   flex-wrap: wrap
@@ -173,7 +173,7 @@ body
     background: $Orange1
 
   .button
-    padding: 16px 32px
+    padding: 0px 32px
     gap: 10px
     width: fit-content
     color: black
@@ -219,7 +219,7 @@ body
       font-size: 32px
       line-height: 123.6%
       text-transform: capitalize
-      color: #2B2B2B
+      color: $Dark1
 
     .services_text_body
       text-align: center
@@ -228,3 +228,49 @@ body
       font-weight: 400
       line-height: 24px
       width: 45%
+
+  .my_services_body
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+    .services_sections
+      background-color: $White
+      border-style: none
+      width: 310px
+      height: 225px
+      margin: 3px
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+
+      width: 310px
+      height: 225px
+      display: flex
+      flex-direction: column
+      justify-content: center
+      margin-top: 5px
+
+      .service_text_section
+        font-family: Inter
+        font-size: 18px
+        font-weight: 500
+        line-height: 22px
+        letter-spacing: 0em
+        text-align: center
+        margin-top: 10px
+
+      .service_description_section
+        font-family: Inter
+        font-size: 15px
+        font-weight: 400
+        line-height: 24px
+        letter-spacing: 0em
+        text-align: center
+        color: $Gray
+        margin: -6px
+      
+      .service_img
+        width: 15%
+        height: auto

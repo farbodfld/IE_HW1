@@ -155,7 +155,7 @@ body {
   background: #FFB400;
 }
 .main_menu .button {
-  padding: 16px 32px;
+  padding: 0px 32px;
   gap: 10px;
   width: -moz-fit-content;
   width: fit-content;
@@ -208,4 +208,49 @@ body {
   font-weight: 400;
   line-height: 24px;
   width: 45%;
+}
+.my_services .my_services_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.my_services .my_services_body .services_sections {
+  background-color: #FFFFFF;
+  border-style: none;
+  width: 310px;
+  height: 225px;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5px;
+}
+.my_services .my_services_body .services_sections .service_text_section {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 10px;
+}
+.my_services .my_services_body .services_sections .service_description_section {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #767676;
+  margin: -6px;
+}
+.my_services .my_services_body .services_sections .service_img {
+  width: 15%;
+  height: auto;
 }
