@@ -178,7 +178,6 @@ body {
 .my_services {
   margin: 0 auto;
   max-width: 970px;
-  border: 1px black solid;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 20px;
