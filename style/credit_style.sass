@@ -38,7 +38,7 @@
 
 .ellipse_13
   position: relative
-  box-sizing: border-box  
+  box-sizing: border-box
   display: block
   width: 16px
   height: 18.22px
@@ -49,28 +49,28 @@
   z-index: 5
 
 .rectangle_51
-    position: relative
-    display: block
-    box-sizing: border-box
-    width: 16.45px
-    height: 17.82px
-    right: -855.44px
-    top: 79.34px
-    border: 2px solid rgba(255, 180, 0, 0.8)
-    transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0)
-    z-index: 5
+  position: relative
+  display: block
+  box-sizing: border-box
+  width: 16.45px
+  height: 17.82px
+  right: -855.44px
+  top: 79.34px
+  border: 2px solid rgba(255, 180, 0, 0.8)
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0)
+  z-index: 5
 
 .rectangle_52
-    position: relative
-    display: block
-    box-sizing: border-box
-    width: 16.45px
-    height: 17.82px
-    left: 373.8px
-    top: 379.28px
-    border: 2px solid rgba(0, 71, 255, 0.8)
-    transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0)
-    z-index: 5
+  position: relative
+  display: block
+  box-sizing: border-box
+  width: 16.45px
+  height: 17.82px
+  left: 373.8px
+  top: 379.28px
+  border: 2px solid rgba(0, 71, 255, 0.8)
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0)
+  z-index: 5
 
 .polygon_1
   display: block
@@ -89,21 +89,31 @@ body
   background-color: $LightGray1
 
 .main
-   margin: 0 auto
-   max-width: 970px
-   
-
-.main_menu
   margin: 0 auto
   max-width: 970px
-  background: $White
-  border: 1px black solid
   display: flex
-  flex-wrap: wrap
-  justify-content: space-evenly
-  position: absolute
-  top: 0
+  flex-flow: column wrap
+
+.main_menu
+  max-width: 970px
+  margin: 0 15px
   margin-top: 20px
+  background-color: #FFFFFF
+  display: flex
+  justify-content: space-evenly
+  flex-wrap: wrap
+  top: 0
+
+  // margin: 0 15px
+  // max-width: 970px
+  // background: $White
+  // border: 1px black solid
+  // display: flex
+  // flex-wrap: wrap
+  // justify-content: space-evenly
+  // position: absolute
+  // top: 0
+  // margin-top: 20px
 
   .main_menu_col-1
     display: flex
@@ -119,7 +129,6 @@ body
     font-weight: 700
     font-size: 48px
     line-height: 123.6%
-
     color: $Dark1
 
     .colorful_text
@@ -145,7 +154,6 @@ body
     height: auto
     left: 586.68px
     top: 9.11px
-    
 
   // .button
   //   display: flex
@@ -162,20 +170,18 @@ body
   //   // .button_image
   //   //   background: url(Icons_and_Images/Hire_me.png)
   .hire_me
-     background: #FFB400
+    background: $Orange1
 
   .button
-    padding:  16px 32px
+    padding: 16px 32px
     gap: 10px
     width: fit-content
     color: black
     text-decoration: none
     display: flex
     align-items: baseline
-    background: #FFB400
+    background: $Orange1
     border-radius: 5px
-    
-
 
     .hire_me_text
       font-family: 'Inter'
@@ -183,4 +189,4 @@ body
       font-weight: 500
       font-size: 18px
       line-height: 19px
-      color: #2B2B2B
+      color: $Dark1

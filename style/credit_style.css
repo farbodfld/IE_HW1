@@ -97,19 +97,19 @@ body {
 .main {
   margin: 0 auto;
   max-width: 970px;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .main_menu {
-  margin: 0 auto;
   max-width: 970px;
-  background: #FFFFFF;
-  border: 1px black solid;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  position: absolute;
-  top: 0;
+  margin: 0 15px;
   margin-top: 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  top: 0;
 }
 .main_menu .main_menu_col-1 {
   display: flex;
