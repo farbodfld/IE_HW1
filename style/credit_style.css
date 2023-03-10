@@ -259,7 +259,6 @@ body {
   max-width: 970px;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -270,7 +269,7 @@ body {
   align-items: center;
   margin: 75px;
 }
-.education .education_text {
+.education .education_head .education_text {
   margin-bottom: 0px;
   text-align: center;
   font-family: Inter;
@@ -278,11 +277,52 @@ body {
   font-weight: 700;
   line-height: 40px;
 }
-.education .education_text_body {
+.education .education_head .education_text_body {
   text-align: center;
   font-family: Inter;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   width: 45%;
+}
+.education .education_body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.education .education_body .education_sections {
+  background-color: #FFFFFF;
+}
+.education .education_body .education_sections .left {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.education .education_body .education_sections .left .title {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #2B2B2B;
+  margin: 10px;
+  margin-left: 30px;
+}
+.education .education_body .education_sections .left .description {
+  display: inline;
+  color: #767676;
+  font-size: 15px;
+  margin: 10px;
+  margin-left: 30px;
+}
+.education .education_body .education_sections .left .date_time {
+  display: inline;
+  background-color: #FFB400;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100.9%;
+  color: #FFFFFF;
+  margin-left: 10px;
+  padding: 2px;
 }
